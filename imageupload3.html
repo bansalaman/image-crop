@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Display Uploaded Image in HTML Using Javascript</title>
+	<link rel="stylesheet" href="{{url('bootstrap')}}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{url('bootstrap')}}/css/bootstrap-theme.min.css">
+	<script src="{{url('bootstrap')}}/jquery-3.2.1.js"></script>
+    <script src="{{url('bootstrap')}}/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+	<div class="container" style="padding-top:20px;">
+		<div class="col-md-7 col-md-offset-2">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">Display Uploaded Image Tutorial</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+							<!-- <form action="" method="POST" role="form" enctype="multpart/form-data"> -->
+								<div class="form-group">
+									<label for="">Choose Image</label>
+									<input type="file" class="form-control" name="image" id="image">
+								</div>
+								<div class="form-group">
+									<img id="show_image" width="auto" class="img img-thumbnail img-circle">
+								</div>
+								<!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+							<!-- </form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <div>
+        Enter the height in px: <input type="text" name="height"><br>
+        Enter the width in px: <input type="text" name="width"><br>   
+    </div>
+	
+	<body>
+            <script src="imageupload3.js"></script>
+		</html>

@@ -26,7 +26,7 @@
 									<input type="file" class="form-control" name="image" id="image">
 								</div>
 								<div class="form-group">
-									<img id="show_image" width="300" class="img img-thumbnail img-circle">
+									<img id="show_image" width="auto" class="img img-thumbnail img-circle">
 								</div>
 								<!-- <button type="submit" class="btn btn-primary">Submit</button> -->
 							<!-- </form> -->
@@ -36,12 +36,29 @@
 			</div>
 		</div>
     </div>
-    
-    <div>
-        Enter the height in px: <input type="text" name="height"><br>
-        Enter the width in px: <input type="text" name="width"><br>   
-    </div>
+	
+	<p id="fileInfo"></p>
+
+	<div>
+		Enter the required height: 
+		<input type="text" name="height" id="req_height"><br>
+	</div>
+
+	<div>
+		Enter the required width: 
+		<input type="text" name="width" id="req_width"><br>   
+	</div>
+
+	<button id="myBtn">Submit</button>
+
+	<div>
+		Your aspect ratio: 
+		<input type="text" placeholder="" name="aspectRatio" id="req_aspect_ratio"><br>   
+	</div>
+
+	
 	
 	<body>
-            <script src="imageupload1.js"></script>
+		<!-- <script src="imageupload1.js"></script>	 -->
+		<script src="imageupload4.js"></script>
 		</html>
